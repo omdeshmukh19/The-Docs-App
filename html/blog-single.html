@@ -6,6 +6,8 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+
+
   <title>The Docs App</title>
 
   <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
@@ -28,7 +30,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a href="index.html" class="navbar-brand">The<span class="text-primary">Docs App</span></a>
+        <a href="/_redirects/index.html" class="navbar-brand">The<span class="text-primary">Docs App</span></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,15 +39,15 @@
         <div class="navbar-collapse collapse" id="navbarContent">
           <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="/_redirects/index.html" class="nav-link">Home</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="services.html" class="nav-link">Services</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="blog.html" class="nav-link">News</a>
             </li>
             <li class="nav-item">
@@ -59,130 +61,54 @@
         </div>
       </div>
     </nav>
-
-    <div class="container mt-5">
-      <div class="page-banner">
-        <div class="row justify-content-center align-items-center h-100">
-          <div class="col-md-6">
-            <nav aria-label="Breadcrumb">
-              <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active">About</li>
-              </ul>
-            </nav>
-            <h1 class="text-center">About Us</h1>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
 
   <main>
-    <div class="page-section">
+    <div class="page-section pt-5">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3">
-            <div class="img-fluid text-center">
-              <img src="../assets/img/bg_image_2.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 py-3 pr-lg-5">
-            <h2 class="title-section">We're <span class="marked">Dynamic</span> Team of Creatives People</h2>
-            <div class="divider"></div>
-            <p>We provide marketing services to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
-            <a href="#" class="btn btn-primary">More Details</a>
-            <a href="#" class="btn btn-outline border ml-2">Success Stories</a>
-          </div>
-        </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-
-    <div class="page-section counter-section">
-      <div class="container">
-        <div class="row align-items-center text-center">
-          <div class="col-lg-4">
-            <p>Total Invest</p>
-            <h2>$<span class="number" data-number="816278"></span></h2>
-          </div>
-          <div class="col-lg-4">
-            <p>Yearly Revenue</p>
-            <h2>$<span class="number" data-number="216422"></span></h2>
-          </div>
-          <div class="col-lg-4">
-            <p>Growth Ration</p>
-            <h2><span class="number" data-number="73"></span>%</h2>
-          </div>
-        </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-  
-    <!-- Testimonials -->
-    <div class="page-section bg-light">
-      <div class="container">
+        <nav aria-label="Breadcrumb">
+          <ul class="breadcrumb p-0 mb-0 bg-transparent">
+            <li class="breadcrumb-item"><a href="/_redirects/index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+            <li class="breadcrumb-item active">Second divided from form fish beastr</li>
+          </ul>
+        </nav>
         
-        <div class="owl-carousel" id="testimonials">
-          <div class="item">
-            <div class="row align-items-center">
-              <div class="col-md-6 py-3">
-                <div class="testi-image">
-                  <img src="../assets/img/person/person_1.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-md-6 py-3">
-                <div class="testi-content">
-                  <p>The Document Management System provided by this platform has transformed the way we handle documents in our company. It's user-friendly, efficient, and highly reliable.</p>
-                  <div class="entry-footer">
-                    <strong>Melvin Platje</strong> &mdash; <span class="text-grey">CEO Slurin Group</span>
+       
+            <div class="comment-form-wrap pt-5">
+              <h2 class="mb-5">Leave a comment</h2>
+              <form action="#" class="">
+                <div class="form-row form-group">
+                  <div class="col-md-6">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-  
-          <div class="item">
-            <div class="row align-items-center">
-              <div class="col-md-6 py-3">
-                <div class="testi-image">
-                  <img src="../assets/img/person/person_2.jpg" alt="">
+                <div class="form-group">
+                  <label for="website">Website</label>
+                  <input type="url" class="form-control" id="website">
                 </div>
-              </div>
-              <div class="col-md-6 py-3">
-                <div class="testi-content">
-                  <p>We have been using this platform for our document management needs, and it has exceeded our expectations. The OCR system is particularly impressive and saves us a lot of time.</p>
-                  <div class="entry-footer">
-                    <strong>George Burke</strong> &mdash; <span class="text-grey">CEO Letro</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-        </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
     
-    <div class="page-section client-section">
-      <div class="container-fluid">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
-          <div class="item">
-            <img src="../assets/img/clients/airbnb.png" alt="">
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="msg" id="message" cols="30" rows="8" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" value="Post Comment" class="btn btn-primary">
+                </div>
+    
+              </form>
+            </div>
+  
           </div>
-          <div class="item">
-            <img src="../assets/img/clients/google.png" alt="">
-          </div>
-          <div class="item">
-            <img src="../assets/img/clients/stripe.png" alt="">
-          </div>
-          <div class="item">
-            <img src="../assets/img/clients/paypal.png" alt="">
-          </div>
-          <div class="item">
-            <img src="../assets/img/clients/mailchimp.png" alt="">
-          </div>
-        </div>
-      </div> <!-- .container-fluid -->
-    </div> <!-- .page-section -->
-  </main>
+        
+  
+         
+  
 
   <footer class="page-footer">
     <div class="container">

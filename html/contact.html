@@ -29,7 +29,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a href="index.html" class="navbar-brand">The<span class="text-primary">Docs App</span></a>
+        <a href="/_redirects/index.html" class="navbar-brand">The<span class="text-primary">Docs App</span></a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
         <div class="navbar-collapse collapse" id="navbarContent">
           <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="/_redirects/index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
@@ -46,10 +46,10 @@
             <li class="nav-item">
               <a href="services.html" class="nav-link">Services</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="blog.html" class="nav-link">News</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -67,11 +67,11 @@
           <div class="col-md-6">
             <nav aria-label="Breadcrumb">
               <ul class="breadcrumb justify-content-center py-0 bg-transparent">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active">News</li>
+                <li class="breadcrumb-item"><a href="/_redirects/index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact</li>
               </ul>
             </nav>
-            <h1 class="text-center">News</h1>
+            <h1 class="text-center">Contact Us</h1>
           </div>
         </div>
       </div>
@@ -81,71 +81,41 @@
   <main>
     <div class="page-section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="avatar">
-                  <img src="../assets/img/person/person_1.jpg" alt="">
-                </div>
-                <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
-                </div>
-              </div>
-              <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is OCR?</a></div>
-                <div class="post-excerpt">OCR stands for Optical Character Recognition. It allows you to convert different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data.</div>
-              </div>
-              <div class="footer">
-                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 py-3">
-            <div class="card-blog">
-              <div class="header">
-                <div class="avatar">
-                  <img src="../assets/img/person/person_2.jpg" alt="">
-                </div>
-                <div class="entry-footer">
-                  <div class="post-author">Sam Newman</div>
-                  <a href="#" class="post-date">23 Apr 2020</a>
-                </div>
-              </div>
-              <div class="body">
-                <div class="post-title"><a href="blog-single.html">What is secure file sharing in The Docs App?</a></div>
-                <div class="post-excerpt">Secure file sharing in The Docs App enables you to share documents securely with internal and external stakeholders. You can maintain control over access and permissions, ensuring confidential information remains protected while facilitating efficient collaboration and communication within your organization</div>
-              </div>
-              <div class="footer">
-                <a href="blog-single.html">Read More <span class="mai-chevron-forward text-sm"></span></a>
-              </div>
-            </div>
-          </div>
-        
-
-          <div class="col-12 mt-5">
-            <nav aria-label="Page Navigation">
-              <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                  <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item active" aria-current="page">
-                  <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#">Next</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-
-        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 py-3">
+            <h2 class="title-section">Get in Touch</h2>
+            <div class="divider"></div>
+            <p>Have a question or need assistance? Reach out to us via email or phone, and we'll be happy to help. We're here to support you every step of the way!</p>
   
-      </div>
-    </div>
+            <ul class="contact-list">
+
+              <li>
+                <div class="icon"><span class="mai-phone-portrait"></span></div>
+                <div class="content"><a href="#">+00 1122 3344 55</a></div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 py-3">
+            <div class="subhead">Contact Us</div>
+            <h2 class="title-section">Drop Us a Line</h2>
+            <div class="divider"></div>
+            
+            <form action="#">
+              <div class="py-2">
+                <input type="text" class="form-control" placeholder="Full name">
+              </div>
+              <div class="py-2">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="py-2">
+                <textarea rows="6" class="form-control" placeholder="Enter message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary rounded-pill mt-4">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div> <!-- .container -->
+    </div> <!-- .page-section -->
   </main>
 
   <footer class="page-footer">
@@ -199,7 +169,7 @@
 
       <div class="row">
         <div class="col-sm-6 py-2">
-          <p id="copyright">&copy; 2024 All rights reserved</p>
+          <p id="copyright">&copy; 2024. All rights reserved</p>
         </div>
         <div class="col-sm-6 py-2 text-right">
           <div class="d-inline-block px-3">
@@ -229,6 +199,8 @@
   <script src="../assets/js/google-maps.js"></script>
 
   <script src="../assets/js/theme.js"></script>
+
+
 
 </body>
 </html>
